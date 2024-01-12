@@ -1,0 +1,24 @@
+.content{
+  text-align: center;
+  padding: 50px;
+}
+.btn-timer{
+  width: 100px;
+  height: 50px;
+  background-color: #008CBA;
+  border: 2px solid #008CBA;
+  color: white;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.btn-timer {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-timer:hover{
+  background-color: white;
+  border: 2px solid #008CBA;
+  color: #008CBA;
+}
