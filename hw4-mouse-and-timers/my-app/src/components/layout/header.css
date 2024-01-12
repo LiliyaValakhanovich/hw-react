@@ -1,0 +1,23 @@
+.header{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008cba;
+}
+
+.header-navigation{
+  display: flex;
+}
+
+.header-link{
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link:hover{
+  transform: scale(1.1);
+}
