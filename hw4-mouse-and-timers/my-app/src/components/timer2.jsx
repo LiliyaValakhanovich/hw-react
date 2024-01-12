@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function Timer1 (){
+export function Timer2 (){
   const [count, setCount] = useState(0);
   const increment=()=>setCount(count+1);
 
@@ -13,7 +13,7 @@ export function Timer1 (){
 
   return(
     <>
-    <p>Timer 1</p>
+    <p>Timer 2</p>
     <div>{count}</div>
     </>
   )
